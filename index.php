@@ -43,14 +43,18 @@
         </div>
 
     <div class="game-container">
-            <div class="btn btn-submit" id="arrowL"><img src="images\circle-anti-blue.gif" alt="Left Arrow" ></div>
-            <div class="btn btn-submit" id="arrowR"><img src="images\circle-clock-blue.gif" alt='Right Arrow' ></div>
+            <div class="btn arrowL" id="arrowL"><img src="images\circle-anti-blue.gif" alt="Left Arrow" ></div>
+            <div class="btn arrowR" id="arrowR"><img src="images\circle-clock-blue.gif" alt='Right Arrow' ></div>
+            <div class="btn  match" id="matchBtn">
+                <button  class="btn-submit" type="submit">Match</button>
+            </div>
 
-    <div class="card-deck">
+
+        <div class="card-deck">
             
               
-            <div class="card card-1 col">
-            <div class="card-outer card-face" id="card-1">
+            <div class="card card-1">
+                <div class="card-outer card-face" id="card-1">
                     <img src="#" alt="outer card face 1" class="outer-image" id="card-outer-1">
                 </div>
                 <div class="card-inner card-face" id="card-1">
@@ -59,7 +63,7 @@
                
             </div>
                
-            <div class="card  card-2 col">
+            <div class="card  card-2 ">
                  <div class="card-outer card-face" id="card-2">
                     <img src="#" alt="outer card face 2" class="outer-image" id="card-outer-2">
                 </div>
@@ -69,7 +73,7 @@
                
             </div>
                  
-            <div class="card  card-3 col">
+            <div class="card  card-3 ">
                 <div class="card-outer card-face" id="card-3">
                     <img src="#" alt="outer card face 3" class="outer-image" id="card-outer-3">
                 </div>
@@ -81,7 +85,7 @@
 
             <div><img src="images/nutden.png" alt="the den center boss" class="pivot-image">  </div>
                         
-            <div class="card  card-4 col">
+            <div class="card  card-4 ">
                 <div class="card-inner card-face" id="card-4">
                     <img src="#" alt="inner card face 4" class="inner-image" id="card-inner-4">
                 </div>
@@ -91,7 +95,7 @@
             </div>
             
             
-            <div class="card  card-5 col">
+            <div class="card  card-5 ">
                 <div class="card-inner card-face" id="card-5">
                     <img src="#" alt="inner card face 5" class="inner-image" id="card-inner-5">
                 </div>
@@ -101,7 +105,7 @@
             </div>
             
             
-            <div class="card  card-6 col">
+            <div class="card  card-6 ">
                 <div class="card-inner card-face" id="card-6">
                     <img src="#" alt="inner card face 6" class="inner-image" id="card-inner-6">
                 </div>
