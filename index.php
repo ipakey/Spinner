@@ -43,10 +43,10 @@
         </div>
 
     <div class="game-container">
-            <div class="btn arrowL" id="arrowL"><img src="images\circle-anti-blue.gif" alt="Left Arrow" ></div>
-            <div class="btn arrowR" id="arrowR"><img src="images\circle-clock-blue.gif" alt='Right Arrow' ></div>
+            <div class="btn arrowL" id="arrowL"><img onclick="oneTurnLeft()" src="images\circle-anti-blue.gif" alt="Left Arrow" ></div>
+            <div class="btn arrowR" id="arrowR"><img onclick="oneturnRight()" src="images\circle-clock-blue.gif" alt='Right Arrow' ></div>
             <div class="btn  match" id="matchBtn">
-                <button  class="btn-submit" type="submit">Match</button>
+                <button  class="btn-submit" onclick="runMatchTest()" type="submit">Match</button>
             </div>
 
 
