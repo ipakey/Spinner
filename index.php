@@ -9,14 +9,14 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1 class="page-title">Spinner Game</h1>
-    <h2 class="sub-header">by Yfke</h2>
+    <h2 class="page-title">Spinner Game by Yfke</h2>
+    
     <div class="wrapper">
-        <div class="overlay-text" id=""></div>
+        <div class="overlay-text" id="overlays"></div>
             <div class="overlay-text" id="game-over-text">GAME OVER!
                 <span class="overlay-text-small">Bad Luck: click to try again </span>
-               
             </div>
+            
             <div class="overlay-text" id="game-start-text">CHOOSE A LEVEL AND CLICK THE BUTTON TO START!
                 <form action="" method="post">
                    <label for="stage" class='formButtonText' style='width:3%; color: LemonChiffon'>6 Questions</label>
@@ -42,11 +42,10 @@
     </div>
 
     <div class="game-buttons">
-        <button class="btn btn-submit arrowL" id="arrowL" onclick="oneTurnLeft()"  href="images\circle-anti-blue.gif" alt="Left Arrow" ></button>
-        <div class="btn btn-submit arrowR" id="arrowR" onclick="oneturnRight()" src="images\circle-clock-blue.gif" alt='Right Arrow' >Right Turn</button>
-        <div class="btn  match" id="matchBtn">
-            <button  class="btn-submit" onclick="runMatchTest()" type="submit">Match</button>
-        </div>
+    <div><button class="btn-submit" id="arrowL" onclick="oneTurnLeft()"  alt="Left Arrow" > <img class='btn-style' src="images\circle-anti-blue.gif"  alt="Left Arrow"></button></div>
+    <div ><button class="btn-submit" id="arrowR" onclick="oneTurnRight()"  alt="Right Arrow" > <img class='btn-style' src="images\circle-clock-blue.gif"  alt="Right Arrow"></button></div>
+    <div class="match" ><button  class="btn-submit" id="matchBtn"  onclick="runMatchTest()" type="submit">Match</button></div>
+
     </div>
    
     <div class="game-container">
